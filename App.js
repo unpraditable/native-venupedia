@@ -1,10 +1,11 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
+import PokemonCard from "./components/PokemonCard";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Testing</Text>
+      <PokemonCard />
       <StatusBar style="auto" />
     </View>
   );
